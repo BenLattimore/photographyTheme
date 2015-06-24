@@ -1,0 +1,66 @@
+
+p, li, a    {
+    font-size: 16px;  
+    font-weight: 400;
+    font-family: 'Josefin Sans', serif;  
+    color:#424254;
+}
+a   {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+a:hover {
+  opacity: 0.5;  
+}
+#menuBlock  {
+    background: #fff;
+    height: 720px;
+}
+#menuBlock h1  {
+    font-family: 'Josefin Sans', serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #424254;
+}
+#menuBlock ul  {
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 0px;
+}
+#menuBlock li  {
+    padding: 20px;
+    text-align: center;
+}
+#menuBlock li a  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    color: #424254;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+#menuBlock li a:hover  {
+    opacity: 0.5;
+    text-decoration: none;
+}
+#menuBlock a    {
+    color: inherit;
+    text-decoration: underline;
+}
+#menuBlock #footer  {
+    margin-top: 50px;   
+}
+#imageBlock {
+    background: url(../img/tumblr_n9hxdqatsK1st5lhmo1_1280.jpg) no-repeat center center;
+    background-size: cover;
+    height: 720px;
+    margin-right: 0px;
+}
+#imageBlock h1  {
+    font-family: 'Josefin Sans', serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 220px;
+}

@@ -1,0 +1,192 @@
+/*
+Theme Name: SatinStar
+Theme URI: http://hewo.co
+Author: Ben Lattimore
+Author URI: http://hewo.co
+Description: Bespoke theme for Satin Star Photography.
+Version: 1.0
+Tags: photography, minimal, images
+*/
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 600;
+    color:#424254;    
+}
+p, li, a    {
+    font-size: 16px;  
+    font-weight: 400;
+    font-family: 'Josefin Sans', serif;  
+    color:#424254;
+}
+p   {
+    padding-bottom: 12px;   
+}
+p:first-of-type {
+    padding-top: 12px;   
+}
+a   {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+a:hover {
+  opacity: 0.5;  
+}
+
+
+/* Navigation
+======================================= */
+
+#menuBlock  {
+    background: #fff;
+    height: 800px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+#menuBlock h1  {
+    font-size: 50px;
+    font-weight: 600;
+    color: #424254;
+}
+#menuBlock ul  {
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 0px;
+}
+#menuBlock li  {
+    padding: 20px;
+    text-align: center;
+}
+#menuBlock li a  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    color: #424254;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+#menuBlock li a:hover  {
+    opacity: 0.5;
+    text-decoration: none;
+}
+#menuBlock a    {
+    color: inherit;
+    text-decoration: underline;
+}
+#menuBlock #footer  {
+    margin-top: 50px;   
+}
+
+/* Front Page
+======================================== */
+
+#fpBlock {
+    height: 800px;
+    margin-right: 0px;
+}
+#fpBlock h1  {
+    font-size: 100px;
+    color: #fff;
+    margin-top: 270px;
+    text-align: right;
+    margin-right: 27px;
+}
+
+
+/* Pages
+========================================= */
+#pageBlock  {
+    margin-right: 0px;   
+}
+#pageBlock h2   {
+    margin-top: 27px; 
+    font-size: 40px;
+}
